@@ -10,8 +10,8 @@ model:
   _target_: vggt.models.tco.model.TCODepthAnything3
   model_name: da3-giant
 
-  tco_steps: 40
-  tco_lr: 5.0e-5
+  tco_steps: 20
+  tco_lr: 5.0e-4
   tco_lora_rank: 4
   tco_lora_alpha: 16.0
   tco_lora_dropout: 0.0

@@ -1,10 +1,3 @@
-# Runtime dependencies for VoxelTTO.
-# Verified in: conda environment `vggt`, Python 3.10, CUDA 12.8.
-#
-# PyTorch CUDA wheels may require:
-#   pip install --index-url https://download.pytorch.org/whl/cu128 \
-#       torch==2.7.1 torchvision==0.22.1
-
 torch==2.7.1
 torchvision==0.22.1
 numpy==1.26.1
@@ -37,3 +30,4 @@ lpips==0.1.4
 torch-scatter==2.1.2
 spconv-cu126==2.3.8
 
+git+https://gitlab.inria.fr/bkerbl/simple-knn.git
