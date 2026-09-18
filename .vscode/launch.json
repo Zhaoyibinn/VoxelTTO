@@ -1,0 +1,27 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "demo_colmap",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "demo_colmap.py",
+            "python": "/root/miniconda3/envs/vggt/bin/python",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "env": {
+                "OMP_NUM_THREADS": "1"
+            },
+            "args": [
+                "--scene_dir", "data/Replica/gsloc_xiaorong_pro6000/office0_50_500",
+                "--shared_camera",
+                "--conf_thres_value", "0.0",
+                "--use_training_resolution_crop",
+                "--align_gt_camera",
+                "--config_file", "configs/inference.yaml",
+                "--checkpoint_path", "logs/vgvggt_spunet_iggt_224x448/ckpts/checkpoint.pt",
+                "--sparse_subdir", "test"
+            ]
+        }
+    ]
+}
