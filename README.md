@@ -3,6 +3,11 @@
 
 **[3D Vision Group, East China University of Science and Technology](https://www.ecust.edu.cn/)**;
 
+<a href="https://arxiv.org/abs/2609.21498"><img src="https://img.shields.io/badge/arXiv-2609.21498-red?logo=arxiv" alt="arXiv"></a>
+<a href="https://github.com/Zhaoyibinn/VoxelTTO"><img src="https://img.shields.io/badge/GitHub-VoxelTTO-black?logo=github" alt="GitHub"></a>
+
+
+
 Inference-only extraction of the configured TCO + high-resolution voxel
 Gaussian pipeline.
 
