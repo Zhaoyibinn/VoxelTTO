@@ -3,8 +3,6 @@
 
 **[3D Vision Group, East China University of Science and Technology](https://www.ecust.edu.cn/)**;
 
-Inference-only extraction of the configured TCO + high-resolution voxel
-Gaussian pipeline.
 
 [Yibin Zhao](https://github.com/Zhaoyibinn)
 
@@ -60,13 +58,13 @@ The scene directory (Colmap pose) is expected to contain:
 office0_50_500/
 ├── images/                 # input RGB images
 └── sparse/
-    └── gt/                 # COLMAP-format camera priors used by TCO
+    └── gt/                 # COLMAP-format camera priors used by TTO
         ├── cameras.txt
         ├── images.txt
         └── points3D.txt    # \
 ```
 
-The default inference configuration runs test-time camera optimization (TCO),
+The default inference configuration runs test-time camera optimization (TTO),
 so `sparse/gt/cameras.txt` and `sparse/gt/images.txt` are required.
 
 ### 2. Run inference
