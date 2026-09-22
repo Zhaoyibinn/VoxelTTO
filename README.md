@@ -1,10 +1,6 @@
 # VoxelTTO
 *Voxel-Aligned Feed-Forward 3D Gaussian Splatting with Test-Time Optimization*
 
-**[3D Vision Group, East China University of Science and Technology](https://www.ecust.edu.cn/)**;
-
-
-[Yibin Zhao](https://github.com/Zhaoyibinn)
 
 ## Overview
 
@@ -26,7 +22,6 @@ This code has been tested with Torch 2.7.1 + CUDA 12.8.
 First, clone this repository to your local machine, and install the dependencies.
 
 ```bash
-git clone https://github.com/Zhaoyibinn/VoxelTTO.git
 cd VoxelTTO
 conda create -n voxeltto python=3.10 -y
 conda activate voxeltto
@@ -35,7 +30,6 @@ pip install -r requirements.txt
 
 Install the differentiable renderer based on stochastic volumetric rendering
 ```bash
-git clone --recursive https://github.com/Zhaoyibinn/Geometry-Grounded-Gaussian-Splatting.git
 cd Geometry-Grounded-Gaussian-Splatting/submodules/diff-gaussian-rasterization
 pip install . --no-build-isolation
 ```
